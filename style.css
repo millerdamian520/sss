@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'raleway',sans-serif;
+
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9px;
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #fff;
+}
+
+section{
+    margin-top: 50px;
+}
+header{
+    background-color:burlywood;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 5%;
+
+
+
+}
+header .logo a{
+    font-size: 25px;
+    color: #111;
+    text-decoration: 0;
+}
+header .logo a span{
+    color:gray;
+}
+.menu {
+    display: flex;
+    text-align: center;
+}
+.menu li {
+    margin: 0 15px;
+    list-style-type: none;
+
+}
+.menu li a{
+    color: #fff;
+    font-size: 14px;
+
+}
+.btn-reservation{
+    color: black;
+    font-size: 14px;
+    border: 2px solid black;
+    padding: 5px 20px;
+    transition: 0.5s;
+}
+body{
+    background-image: url('bg-home.jpg');
+
+}
